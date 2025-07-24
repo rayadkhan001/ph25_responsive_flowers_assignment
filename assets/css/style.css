@@ -43,3 +43,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.margin_auto{
+  margin: 0 auto;
+}
