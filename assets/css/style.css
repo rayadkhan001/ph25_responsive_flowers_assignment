@@ -27,13 +27,19 @@ body {
 .badge{
   margin-left: 520px;
 }
-  .badge-hover {
-    width: 200px;
-    height: 200px;
-    transition: width 0.3s ease, height 0.3s ease;
-  }
-
-  .badge-hover:hover {
-    width: 300px;
-    height: 300px;
-  }
+.badge-hover {
+  width: 200px;
+  height: 200px;
+  transition: width 0.3s ease, height 0.3s ease;
+}
+.badge-hover:hover {
+  width: 300px;
+  height: 300px;
+}
+.bg_img{
+  width: 100%;
+  padding: 300px;
+  background-image: url('../img/news-letter-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
