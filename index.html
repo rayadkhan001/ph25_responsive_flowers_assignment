@@ -207,12 +207,11 @@
                     <span class="font-medium">Deals</span>
                 </h2>
 
-                <p class="text-gray-500 mt-2 max-w-xl mx-auto">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.
-                </p>
+                <p class="text-gray-500 mt-2 max-w-xl mx-auto">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
             </div>
 
             <!-- GRID -->
-            <div class="grid grid-cols-2 gap-4 items-center">
+            <div class="grid grid-cols-2 sm:grid-cols-1 gap-4 items-center">
                 <div class="flex flex-col gap-4">
 
                     <!-- DEAL BLOOM -->
@@ -265,17 +264,17 @@
     <!-- MAIN ENDS -->
 
     <!-- FOOTER STARTS -->
-    <footer class="py-10">
-        <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8 text-gray-700">
-            
-            <!-- Logo + Description -->
-            <div>
+    <footer class="py-10 bg-white">
+        <div class="max-w-6xl mx-auto px-4 flex flex-col sm:items-start md:grid md:grid-cols-4 gap-8 text-gray-700 text-center md:text-left">
+
+            <!-- LOGO AND DESCRIPTION -->
+            <div class="flex flex-col items-center sm:items-start md:items-start">
                 <img src="assets/img/logo.png" alt="Logo" class="mb-4" />
-                <p>Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
+                <p class="max-w-xs sm:text-left text-[rgba(107,114,128,1)]">Indulge your senses with the beauty and fragrance of our fresh flower shop.</p>
             </div>
 
-            <!-- First Links Column -->
-            <div class="margin_auto">
+            <!-- FIRST LINKS COLOMN -->
+            <div class="flex flex-col sm:text-left text-[rgba(107,114,128,1)] items-center md:items-start">
                 <ul class="space-y-2">
                     <li><a href="#" class="hover:text-orange-500">Home</a></li>
                     <li><a href="#" class="hover:text-orange-500">About Us</a></li>
@@ -285,8 +284,8 @@
                 </ul>
             </div>
 
-            <!-- Second Links Column -->
-            <div class="margin_auto">
+            <!-- SECOND LINKS COLUMN -->
+            <div class="flex flex-col sm:text-left text-[rgba(107,114,128,1)] items-center md:items-start">
                 <ul class="space-y-2">
                     <li><a href="#" class="hover:text-orange-500">Features</a></li>
                     <li><a href="#" class="hover:text-orange-500">Pricing</a></li>
@@ -296,8 +295,8 @@
                 </ul>
             </div>
 
-            <!-- Social Icons -->
-            <div class="flex space-x-4 justify-start md:justify-end">
+            <!-- SOCIAL ICONS -->
+            <div class="flex justify-center sm:text-left md:justify-end items-center space-x-4">
                 <img src="assets/img/icon-linkedin.png" alt="LinkedIn" class="h-6 w-6" />
                 <img src="assets/img/icon-twitter.png" alt="Twitter" class="h-6 w-6" />
                 <img src="assets/img/icon-facebook.png" alt="Facebook" class="h-6 w-6" />
@@ -307,5 +306,6 @@
         </div>
     </footer>
     <!-- FOOTER ENDS -->
+
 </body>
 </html>
